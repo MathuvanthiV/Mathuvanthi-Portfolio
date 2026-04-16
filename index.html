@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathuvanthi Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0f0c29, #302b63, #24243e);
+  color: white;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(12px);
+  padding: 8px 5px;
+  text-align: center;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+nav a {
+  color: #00ffd5;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 4px 6px;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #00ffd5;
+}
+
+/* SECTIONS */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 15px 25px;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 34px;
+  color: #00ffd5;
+  text-shadow: 0 0 15px #00ffd5;
+}
+
+h2 {
+  color: #00ffd5;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #00ffd5;
+  margin-top: 10px;
+}
+
+/* CARDS */
+.card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(0,255,213,0.2);
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+/* PROJECT CARDS */
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.project-card {
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+/* LINKS */
+a {
+  color: #00ffd5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-shadow: 0 0 8px #00ffd5;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border: 1px solid #00ffd5;
+  color: #00ffd5;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #00ffd5;
+  color: black;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  h1 { font-size: 26px; }
+  section { padding: 75px 12px 20px; }
+  nav a { font-size: 11px; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h1>Mathuvanthi Villenthi</h1>
+  <p style="color:#ccc;">Data Science | Python | Machine Learning | Data Analyst</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    I am a Computer Science graduate passionate about Data Science and Analytics.
+    I enjoy building ML models, analyzing data, and extracting insights for decision making.
+    Skilled in Python, SQL, Power BI, and Machine Learning.
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    Python • SQL • Power BI • Machine Learning • Data Analysis • Visualization
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="card">
+    <h3>EDUTECH | Python & Robotics Instructor</h3>
+    Trained 20–50 students and guided 20+ projects.
+  </div>
+
+  <div class="card">
+    <h3>UNIFIED MENTOR | Web Development Intern</h3>
+    Built SQL-based clinical management system.
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card project-card">
+    <img src="project1.png">
+    <h3>Customer Trend Analysis</h3>
+    <a href="#">GitHub</a>
+  </div>
+
+  <div class="card project-card">
+    <img src="project2.png">
+    <h3>Zepto SQL Analysis</h3>
+    <a href="#">GitHub</a>
+  </div>
+
+  <div class="card project-card">
+    <img src="project3.png">
+    <h3>EV Prediction</h3>
+    <a href="#">GitHub</a>
+  </div>
+
+  <div class="card project-card">
+    <img src="project4.png">
+    <h3>Student Analysis</h3>
+    <a href="#">GitHub</a>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="card">
+    AI (Infosys) • Python • SQL • Power BI
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card">
+    2 Research Papers • IIC Coordinator • 50+ students trained
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    Email: <b style="color:#00ffd5;">mv020703@gmail.com</b><br><br>
+
+    <a href="https://linkedin.com/in/mathuvanthiv" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/MathuvanthiV" target="_blank">GitHub</a>
+  </div>
+</section>
+
+</body>
+</html>
